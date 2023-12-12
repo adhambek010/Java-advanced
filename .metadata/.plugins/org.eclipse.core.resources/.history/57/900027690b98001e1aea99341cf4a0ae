@@ -1,0 +1,35 @@
+package com.java.advanced.io;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class ByteStreamDemo {
+	
+	public static final String fileLocation1 = "C:\\JavaLearning\\JavaAdvanced\\JavaAdvancedPart 1\\src\\com\\java\\advanced\\io\\FileReader.txt";
+
+	public static void main(String[] args) {
+		
+		FileInputStream inputStream = null;
+		FileOutputStream outputStream = null;
+
+		String newFile = fileLocation1 + "new.txt"; 
+		String data = "Author Adkham Salaydinov";
+		try {
+			inputStream = new FileInputStream(fileLocation1);
+			outputStream = new FileOutputStream(newFile);
+			
+			int content = inputStream.read();
+			while(content != -1) {
+				outputStream.write((byte)content);
+				content = inputStream.read(); 
+			}
+			
+			
+		} catch (IOException e) {
+			System.err.println(e.toString());
+			e.printStackTrace();
+		}
+	}
+
+}

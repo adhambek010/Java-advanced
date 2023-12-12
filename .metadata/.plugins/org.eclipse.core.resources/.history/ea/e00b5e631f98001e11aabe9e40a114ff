@@ -1,0 +1,22 @@
+package com.java.advanced.io;
+
+public class LeedCode {
+
+	public static void main(String[] args) {
+		int[] nums = {2,7,11,15};
+		int target = 9;
+		twoSum(nums, target);
+		System.out.println(nums.length);
+	}
+
+	public static int[] twoSum(int[] nums, int target) {
+		int num = 0;
+		for(int i = 0; i < nums.length; i++) {
+			for(int j = 1; j < nums.length-1; j++) {
+				
+			}
+		}
+		int[] arry = {};
+		return arry;
+	}
+}

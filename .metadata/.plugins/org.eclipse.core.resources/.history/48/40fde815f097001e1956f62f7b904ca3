@@ -1,0 +1,21 @@
+package com.java.advanced.serialization;
+
+import java.io.Serializable;
+
+/**
+ * @author Adham
+ *
+ */
+public class Student implements Serializable{
+
+	private static final long serialVersionUID = 1L;
+	
+	private String sName;
+	private int age;
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

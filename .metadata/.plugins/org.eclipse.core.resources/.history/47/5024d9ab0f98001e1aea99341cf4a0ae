@@ -1,0 +1,35 @@
+package com.java.advanced.io;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class CharacterStreamDemo {
+	
+	public static void main(String[] args) {
+		
+		FileWriter writer = null;
+		FileReader reader = null;
+		String data = "";
+		
+		try {
+			reader = new FileReader(ByteStreamDemo.fileLocation1);
+			writer = new FileWriter(ByteStreamDemo.fileLocation1);
+			
+			int val = reader.read();
+			while(val != -1) {
+				data += (char)val;
+				val = reader.read();
+			}
+			System.out.println(data);
+			
+			char[] ch = data.toCharArray();
+			writer.write(ch);
+			
+			reader.close();
+			writer.close();
+		} catch (IOException e) {
+			
+		}
+	}
+}

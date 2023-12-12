@@ -1,0 +1,19 @@
+package com.java.advanced.networking;
+
+import java.net.Inet4Address;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+import java.util.Arrays;
+
+public class NetworkingDemo {
+
+	public static void main(String[] args) {
+		
+		String url = "www.youtube.com";
+		
+		InetAddress address = null;
+		
+		System.out.println("hashCode : "+address.hashCode());
+		
+	}
+}

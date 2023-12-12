@@ -1,0 +1,16 @@
+package com.java.advanced.io;
+
+public class CharacterStreamDemo {
+	
+	public static void main(String[] args) {
+		String text = "public class FileReader\r\n"
+				+ "extends InputStreamReader\r\n"
+				+ "Convenience class for reading character files. The constructors of this class assume that the default character encoding and the default byte-buffer size are appropriate. To specify these values yourself, construct an InputStreamReader on a FileInputStream.\r\n"
+				+ "FileReader is meant for reading streams of characters. For reading streams of raw bytes, consider using a FileInputStream.\r\n"
+				+ "\r\n"
+				+ "Since:\r\n"
+				+ "JDK1.1\r\n"
+				+ "See Also:\r\n"
+				+ "InputStreamReader, FileInputStream";
+	}
+}

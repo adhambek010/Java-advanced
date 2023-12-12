@@ -1,0 +1,39 @@
+package com.java.advanced.io;
+
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+/**
+ * @author Adkham
+ *
+ * 
+ */
+public class ImageHandling {
+
+	public static void main(String[] args) {
+		
+		int width = 963;
+		int height = 640;
+		
+		BufferedImage image = null;
+		
+		image = readFromFile(width, height, image);
+		
+		writeToFile(image); 	
+	}
+	
+	private static BufferedImage readFromFile(int width, int height, BufferedImage image) {
+		
+		String fileName = "C:JavaLearning\\JavaAdvanced\\JavaAdvancedPart 1\\src\\com\\java\\advanced\\io\\IO hierarchy.png";
+		try {
+			File sampleFile = new File();
+		} catch (IOException e) {
+			System.err.println(e.toString());
+			e.printStackTrace();
+		}
+		
+		return image;
+	}
+
+}

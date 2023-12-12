@@ -1,0 +1,29 @@
+package com.java.advanced.networking;
+
+import java.net.Inet4Address;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+import java.util.Arrays;
+
+public class NetworkingDemo {
+
+	public static void main(String[] args) {
+		
+		String url = "www.youtube.com";
+		
+		InetAddress address = null;
+		
+		try {
+			 address = Inet4Address.getByName(url);
+			 
+			 System.out.println("Address : "+Arrays.toString(address.getAddress()));
+			 
+			 // getHostAddress() method
+			 System.out.println("Host Address : "+address.getHostAddress());
+		} catch (UnknownHostException e) {
+			System.err.println(e.toString()); 
+			e.printStackTrace();
+		}
+		
+	}
+}
