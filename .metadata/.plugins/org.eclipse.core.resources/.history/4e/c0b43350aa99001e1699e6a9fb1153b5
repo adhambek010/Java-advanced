@@ -1,0 +1,15 @@
+package com.java.leetCode;
+
+public class IsPalendrome {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public static boolean isPalindrome(int number) {
+		
+		return true;
+	}
+
+}

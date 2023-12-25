@@ -1,0 +1,34 @@
+package com.java.thread;
+
+class ThreadPoolDemo extends Thread{
+	
+	private String name;
+	
+	public ThreadPoolDemo(String name) {
+		super(name);
+		this.name = name;
+	}
+	
+	@Override
+	public void run() {
+		System.out.println("Started thread : " + name);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("Ended thread  : " + name);
+	}
+}
+
+public class ThreadPool {
+
+	public static void main(String[] args) {
+		
+		ThreadPoolDemo thread1 = new ThreadPoolDemo("Thread 1");
+		thread1.start();
+		
+
+	}
+
+}

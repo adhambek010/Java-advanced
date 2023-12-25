@@ -1,0 +1,45 @@
+package com.java.thread;
+
+import java.util.concurrent.CountDownLatch;
+
+class DemoThred extends Thread{
+	
+	private CountDownLatch latch;
+	
+	
+	
+	public DemoThred(CountDownLatch latch) {
+		this.latch = latch;
+	}
+
+
+
+	@Override
+	public void run() {
+		Thread.currentThread().setName("Thread Demo : " + latch);
+		System.out.println("Started Thread : " + Thread.currentThread().getName());
+		System.out.println("Ended Thread   : " + Thread.currentThread().getName());
+		System.out.println("******************************");
+	}
+}
+
+public class CountDownLatchDemo {
+
+	public static void main(String[] args) {
+		
+		CountDownLatch latch = new CountDownLatch(4);
+		
+		DemoThred demoThred = new DemoThred(latch);
+		demoThred.start();
+		
+		try {
+			latch.await();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println("Main thread : " + Thread.currentThread().getName());
+
+	}
+
+}

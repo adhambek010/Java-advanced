@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feane Restaurant - Home</title>
+    <!-- Add your stylesheets and other head elements here -->
+</head>
+
+<body>
+	<h1>This is home Page</h1>
+    <header class="header_section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="path/to/logo.png" alt="Feane Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li>
+                            <a href="<%= request.getContextPath() %>/Home?page=home">Home</a>
+                        </li>
+                        <li>
+                           <a href="<%= request.getContextPath() %>/Home?page=menu">Menu</a>
+                        </li>
+                        <li>
+                           <a href="<%= request.getContextPath() %>/Home?page=about">About</a>
+                        </li>
+                        <li>
+                            <a href="<%= request.getContextPath() %>/Home?page=book">Book</a>
+                        </li>
+                    </ul>
+                    <div class="user_option">
+                        <a href="#" class="user_link">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </a>
+                        <a class="cart_link" href="#">
+                            <img src="path/to/cart-icon.svg" alt="Cart">
+                        </a>
+                        <form class="form-inline">
+                            <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                        <a href="#" class="order_online">Order Online</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Your home page content goes here -->
+        <h1>Welcome to Feane Restaurant</h1>
+        <p>Experience the finest in dining with our exquisite menu and cozy ambiance.</p>
+        <p>Explore our diverse menu and reserve your table for an unforgettable culinary journey.</p>
+    </div>
+
+    <!-- Add your scripts and other body elements here -->
+
+</body>
+
+</html>

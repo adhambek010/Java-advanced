@@ -1,0 +1,40 @@
+package com.java.generics;
+
+
+class Data<K,V>{
+
+    private K key;
+    private V value;
+
+    public Data(K key, V value) {
+        this.key = key;
+        this.value = value;
+    }
+
+    public K getKey() {
+        return key;
+    }
+
+    public void setKey(K key) {
+        this.key = key;
+    }
+
+    public V getValue() {
+        return value;
+    }
+
+    public void setValue(V value) {
+        this.value = value;
+    }
+
+    public <N,E> void display(N number, E element){
+        System.out.println("Number : "+number+"\tElement : "+element);
+    }
+}
+public class Generics {
+    public static void main(String[] args) {
+        Data<Integer, String> data1 = new Data<>(1, "Dog");
+        data1.display(25, '%');
+    }
+
+}

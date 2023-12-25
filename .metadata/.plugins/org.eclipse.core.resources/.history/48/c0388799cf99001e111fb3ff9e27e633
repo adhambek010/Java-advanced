@@ -1,0 +1,25 @@
+package com.java.leetCode;
+
+public class IsPalindrome {
+
+	public static void main(String[] args) {
+		
+		int number = 1234321;
+		System.out.println(isPalindrome(number));
+
+	}
+	
+	public static boolean isPalindrome(int number) {
+		
+		int newNum = 0;
+		String str = ""+number;
+		for(int i = 0; i < str.length(); i++) {
+			newNum *= 10;
+			newNum += Character.getNumericValue(str.charAt(str.length() - i - 1));
+		}
+		System.out.println(newNum);
+		
+		return newNum == number;
+	}
+
+}

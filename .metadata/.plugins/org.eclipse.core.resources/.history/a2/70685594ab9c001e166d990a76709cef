@@ -1,0 +1,24 @@
+package com.java.thread;
+
+class DemoThred extends Thread{
+	@Override
+	public void run() {
+		Thread.currentThread().setName("Thread Demo");
+		System.out.println("Started Thread : " + Thread.currentThread().getName());
+		System.out.println("Ended Thread   : " + Thread.currentThread().getName());
+		System.out.println("******************************");
+	}
+}
+
+public class CountDownLatch {
+
+	public static void main(String[] args) {
+		
+		DemoThred demoThred = new DemoThred();
+		demoThred.start();
+		
+		System.out.println("Main thread : " + Thread.currentThread().getName());
+
+	}
+
+}

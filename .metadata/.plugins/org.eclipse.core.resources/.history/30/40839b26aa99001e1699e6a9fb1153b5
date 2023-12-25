@@ -1,0 +1,10 @@
+package com.java.leetCode;
+
+public class IsPalendrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
