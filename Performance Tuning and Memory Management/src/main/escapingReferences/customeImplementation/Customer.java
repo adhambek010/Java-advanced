@@ -1,10 +1,8 @@
 package main.escapingReferences.customeImplementation;
 
 
-import lombok.Setter;
 import main.escapingReferences.customers.ReadOnlyCustomer;
 
-@Setter
 public class Customer implements ReadOnlyCustomer {
     private String name;
 
