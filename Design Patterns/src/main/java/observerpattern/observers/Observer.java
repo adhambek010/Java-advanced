@@ -1,4 +1,4 @@
-package src.main.java.observers;
+package src.main.java.observerpattern.observers;
 
 public interface Observer {
     void update();

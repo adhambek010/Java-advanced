@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d208fb7b-4df5-4b9e-aec9-f5e2ea43dc9d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.classpath" beforeDir="false" />
@@ -180,10 +183,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Java\JDK17\mvn\apache-maven-3.9.6" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2aQsCF4r7s60gLbK1VLQ3u3jmfL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -194,8 +204,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -208,6 +220,8 @@
       <option name="presentableId" value="Default" />
       <updated>1704262009368</updated>
       <workItem from="1704262011807" duration="163000" />
+      <workItem from="1705076857627" duration="30000" />
+      <workItem from="1705076898443" duration="174000" />
     </task>
     <servers />
   </component>

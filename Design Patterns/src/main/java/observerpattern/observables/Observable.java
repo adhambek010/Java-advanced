@@ -1,6 +1,6 @@
-package src.main.java.observables;
+package src.main.java.observerpattern.observables;
 
-import src.main.java.observers.Observer;
+import src.main.java.observerpattern.observers.Observer;
 
 public interface Observable {
     void add(Observer observer);

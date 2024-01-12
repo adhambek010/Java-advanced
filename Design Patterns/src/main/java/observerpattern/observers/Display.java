@@ -1,6 +1,6 @@
-package src.main.java.observers;
+package src.main.java.observerpattern.observers;
 
-import src.main.java.observables.WeatherStation;
+import src.main.java.observerpattern.observables.WeatherStation;
 public class Display implements Observer{
 
     WeatherStation station;
