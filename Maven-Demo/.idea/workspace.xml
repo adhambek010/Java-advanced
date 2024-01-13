@@ -5,42 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a6a80e0-bee3-4748-8883-b520fc81c140" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Design Patterns/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design Patterns/src/main/java/decoratorpattern/AddonDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design Patterns/src/main/java/decoratorpattern/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design Patterns/src/main/java/decoratorpattern/Caramel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Design Patterns/src/main/java/decoratorpattern/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/LeetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/out/production/LeetCode/com/java/leetCode/leetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/out/production/LeetCode/com/java/leetCode/out/production/leetCode/com/java/leetCode/leetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/src/com/java/leetCode/sorting/bubblesort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/src/com/java/leetCode/sorting/selectionsort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Child-Project/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Design Patterns/out/production/Design Patterns/src/main/java/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Design Patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Design Patterns/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Design Patterns/src/main/java/observables/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Design Patterns/src/main/java/observerpattern/observables/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Design Patterns/src/main/java/observables/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Design Patterns/src/main/java/observerpattern/observables/WeatherStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Design Patterns/src/main/java/observers/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Design Patterns/src/main/java/observerpattern/observers/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Design Patterns/src/main/java/observers/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Design Patterns/src/main/java/observerpattern/observers/Observer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAdvancedPart1" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAdvancedPart1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvancedPart2/SpringBoot/SpringStarter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAdvancedPart2/SpringBoot/SpringStarter/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,27 +37,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main (1).executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JavaLearning/JavaAdvanced/Maven-Demo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaLearning/JavaAdvanced/Maven-Demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -145,6 +110,7 @@
       <workItem from="1705077249790" duration="1650000" />
       <workItem from="1705079782239" duration="2269000" />
       <workItem from="1705082418552" duration="151000" />
+      <workItem from="1705116882710" duration="94000" />
     </task>
     <servers />
   </component>
