@@ -11,6 +11,16 @@
     <modules>
         <module>DecorationPattern</module>
         <module>ObservationPattern</module>
+        <module>FactoryMethodPattern</module>
+        <module>CommandPattern</module>
+        <module>AdapterPattern</module>
+        <module>ProxyPattern</module>
+        <module>BridgePattern</module>
+        <module>TemplateMethodPattern</module>
+        <module>StrategyPattern</module>
+        <module>AbstractFactoryPattern</module>
+        <module>SingletonPattern</module>
+        <module>BuilderPattern</module>
     </modules>
 
     <properties>
