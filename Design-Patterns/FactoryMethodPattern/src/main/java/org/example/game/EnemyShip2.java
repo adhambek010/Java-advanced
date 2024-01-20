@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public abstract class EnemyShip {
+public abstract class EnemyShip2 {
     private String name;
     private double amtDamage;
 

@@ -15,8 +15,16 @@
     <file url="file://$PROJECT_DIR$/DecorationPattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FactoryMethodPattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FactoryMethodPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FlyweightPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FlyweightPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MomentoPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MomentoPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NewPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NewPattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ObservationPattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ObservationPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PrototypePattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PrototypePattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ProxyPattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ProxyPattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SingletonPattern/src/main/java" charset="UTF-8" />
@@ -25,6 +33,8 @@
     <file url="file://$PROJECT_DIR$/StrategyPattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TemplateMethodPattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TemplateMethodPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/VisitorPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/VisitorPattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

@@ -21,6 +21,10 @@
         <module>AbstractFactoryPattern</module>
         <module>SingletonPattern</module>
         <module>BuilderPattern</module>
+        <module>PrototypePattern</module>
+        <module>NewPattern</module>
+        <module>MomentoPattern</module>
+        <module>VisitorPattern</module>
     </modules>
 
     <properties>

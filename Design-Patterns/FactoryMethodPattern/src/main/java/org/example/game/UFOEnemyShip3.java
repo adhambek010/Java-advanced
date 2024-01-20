@@ -1,7 +1,7 @@
 package org.example.game;
 
-public class UFOEnemyShip extends EnemyShip{
-    public UFOEnemyShip(){
+public class UFOEnemyShip3 extends EnemyShip2 {
+    public UFOEnemyShip3(){
         setName("UFO Enemy Ship");
         setAmtDamage(20.0);
     }
