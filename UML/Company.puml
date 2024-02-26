@@ -1,0 +1,26 @@
+@startuml
+object company
+object department01{
+    name = "Sales"
+}
+object department02{
+    name = "Production"
+}
+object department03{
+    name = "Marketing"
+}
+object person{
+    name = "Daniel"
+    empId = "2377"
+    title = "VIP of Sales"
+}
+object contactInformation{
+    email = "daniel@email.com"
+}
+department01 -- company
+department02 -- company
+department03 -- company
+department01 -- person
+person -- contactInformation
+
+@enduml

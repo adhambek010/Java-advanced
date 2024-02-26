@@ -1,0 +1,31 @@
+@startuml
+start
+:ClickServlet.handleRequest();
+:new page;
+if(Page.onSecurityCheck) then
+    :Page.onInit();
+    if(continue processing?)
+    stop;
+    endif
+    if(isPost?) then (yes)
+        :Page.onPost();
+    else(no)
+        :Page.onGet();
+    endif
+    :Page.onRender();
+    else (false)
+endif
+
+if(do redirect?) then (yes)
+    :redirect process;
+else
+    if(do forward?) then (yes)
+    :Forward request;
+    else (no)
+    :Render page template;
+    endif
+endif
+
+stop
+
+@enduml

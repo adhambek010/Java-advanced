@@ -1,0 +1,13 @@
+@startuml
+frame "ID component view"{
+    [OrderProcessing] as component
+    component -> [NewOrders]
+    [CustomerSystem] <- component
+    component ---> [MailQueue]
+    [SendMail] -> [MailQueue]
+    [SendMail] --> [MailServer]
+
+    component --> [OrderQueue]
+    [OrderSystem] -> [OrderQueue]
+}
+@enduml

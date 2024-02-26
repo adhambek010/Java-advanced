@@ -1,0 +1,15 @@
+@startuml
+start
+repeat
+    :Test Something;
+    if (something went wrong?)
+    #palegreen:OK;
+    break;
+    endif
+    ->NOK;
+    :Alert: "Error occurred";
+repeat while (Something went wrong)
+->no;
+:Alert "Success";
+stop
+@enduml

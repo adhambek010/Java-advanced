@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+:Borrower: as Borrower
+:EmailServer: as EmailServer
+
+rectangle NetLibrary{
+    Borrower -- (Find Book)
+    Borrower -- (Reserve Book)
+    Borrower -- (Borrow Status)
+    Borrower -- (Renew Loan)
+}
+EmailServer -up- (Reserve Book)
+@enduml

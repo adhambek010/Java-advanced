@@ -1,0 +1,20 @@
+@startuml
+class House
+class Kitchen
+class Bathroom
+class Bedroom
+class Room
+class Mortgage
+class Mailbox
+
+House *-- "1" Kitchen
+House *-- "1" Bathroom
+House *-- "1" Bedroom
+House o-- "1" Mailbox
+House -- "0..1" Mortgage
+
+Bedroom --|> Room
+Bathroom --|> Room
+Kitchen --|> Room
+
+@enduml

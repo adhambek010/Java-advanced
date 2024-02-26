@@ -1,0 +1,11 @@
+@startuml
+actor User as Foo1
+Foo1 -> LoginScreen: Click on login button
+LoginScreen -> ValidateUser
+ValidateUser -> Database
+Database -> ValidateUser
+ValidateUser -> LoginScreen
+LoginScreen -> LoginScreen
+LoginScreen -> Foo1: Successfully Login
+
+@enduml

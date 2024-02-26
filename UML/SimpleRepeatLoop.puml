@@ -1,0 +1,12 @@
+@startuml
+start
+    :read data;
+    :generate diagrams;
+repeat
+    :check more data?;
+    ->yes;
+    :read data;
+    :generate diagrams;
+repeat while (more data?) is (yes)
+stop
+@enduml

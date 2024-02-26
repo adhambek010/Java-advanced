@@ -1,0 +1,15 @@
+@startuml
+interface Flying{
+    {abstract} flying() : void
+}
+abstract class Animal{
+    -name: String
+    +getName: String
+}
+class Bird{
+    + flying(): void
+}
+
+Flying <|.. Bird
+Animal <|-- Bird
+@enduml
