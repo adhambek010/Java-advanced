@@ -1,0 +1,5 @@
+Reading and writing text files
+Reading text, images, JSON from the web
+Visiting files in a directory
+Reading a ZIP file
+Creating a temporary file or directory
